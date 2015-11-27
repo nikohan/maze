@@ -13,7 +13,7 @@ public class MazeGame {
 					.getSide(Direction.EAST))
 					.otherSideRoom(
 							maze.getRoom("001"))
-							.getId());
+							);
 	}
 	
 	public Maze createMaze() {
